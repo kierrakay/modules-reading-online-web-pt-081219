@@ -1,0 +1,1 @@
+#module is just a behavior its not creating instances its a grouping of behaviors or methods that has the purpose of being shared across diff classes. 
