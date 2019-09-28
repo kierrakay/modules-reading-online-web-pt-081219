@@ -1,3 +1,0 @@
-class FancyDance
-  
-end
