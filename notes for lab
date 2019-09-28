@@ -3,3 +3,27 @@ class methods :
 
 instance methods: 
  through the initialize method
+ 
+ class Dog 
+  @@all = []
+  
+  def initialize 
+  	@@all << self
+  end 
+  def bark
+    # instance method
+    puts "woof"
+  end
+  
+  def self.all 
+    # class method
+    @@all 
+  end
+end
+
+
+dog = Dog.new
+
+dog.bark #=> Woof!
+
+Dog.all # class method, call it on the class itself
