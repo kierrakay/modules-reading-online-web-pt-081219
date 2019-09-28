@@ -4,6 +4,8 @@ class methods :
 instance methods: 
  through the initialize method
  
+ 
+ 
  class Dog 
   @@all = []
   
