@@ -4,6 +4,8 @@ class methods :
 instance methods: 
  through the initialize method
  
+ Inheritance using the < syntax, implies that a class is a type of something. A BMW class should inherit from a Car class because a BMW is a type of car: class BMW < Car.
+ 
  
  
  class Dog 
